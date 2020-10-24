@@ -1,0 +1,40 @@
+nav {
+	float: left;
+	width:20%;
+	height: 1000px;
+}
+main {
+	width:80%;
+}
+body {
+	margin: auto;
+	width: 80%;
+}
+footer {
+	padding: 5px;
+	color: white;
+	background-color: blue;
+	text-align: center;
+	width: 100%;
+	position: sticky;
+	bottom: 0;
+}
+footer > p {
+	font-size:20px;
+}
+ul {
+	list-style-type: none;
+}
+#upper_ul {
+	background-color: lightblue;
+}
+#nest_ul {
+	background-color: blue;
+}
+a {
+	color: white;
+}
+h2 {
+	font-size: 50px;
+	color: lightblue;
+}
