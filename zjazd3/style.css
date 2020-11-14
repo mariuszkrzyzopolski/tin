@@ -1,0 +1,38 @@
+nav li{
+    background-color: gray;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+nav li ul{
+    display: none
+}
+nav li:hover ul{
+    display: block;
+    position: absolute;
+}
+li{
+    padding:10px;
+}
+nav{
+    float: left;
+    display: block;
+    width: 100%;
+}
+main{
+    float: left;
+    display: block;
+    width: 100%;
+}
+.container{
+    width: 50%;
+    float:left;
+}
+footer{
+    clear: both;
+    width: 100%;
+}
+footer p{
+    width: 33%;
+    display: inline-block;
+}
