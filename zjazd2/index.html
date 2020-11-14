@@ -5,7 +5,7 @@
     </head>
     <body>
         <nav>
-        <ul id="upper_ul">
+        <ul id="mainul">
             <li><a href="">link</a>
             <ul id="nest_ul">
                 <li><a href="">link2</a></li>
@@ -28,10 +28,13 @@
         <h2>title 2</h2>
         <p>lorem ipsum</p>
         <form>
+            <div class='div_form'>
             <label for="name">Imie i nazwisko:</label><br>
             <input type="text" id="name" name="name"><br>
             <label for="desc">Opis:</label><br>
             <textarea id="desc" name="desc" rows="4" cols="30" placeholder="Wpisz coś o sobie"></textarea><br>
+            </div>
+            <div class='div_form'>
             <p>Wiek</p>
             <select name="sel">
                 <option>Wybierz..</option>
@@ -46,6 +49,7 @@
             <label for="b">B</label><br>
             <input type="radio" id="c" name="option" value="c">
             <label for="c">C</label>
+            </div>
         </form>
         <table>
             <tr>

@@ -1,40 +1,75 @@
-nav {
-	float: left;
-	width:20%;
-	height: 1000px;
+body {
+    background-image: url("back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    margin: auto;
 }
 main {
-	width:80%;
+    display: block;
+    height: 80%;
+    overflow-y: scroll;
+    background-color: #3597d2;
 }
-body {
-	margin: auto;
-	width: 80%;
+img {
+    max-width: 20%;
+    height: auto;
 }
-footer {
-	padding: 5px;
-	color: white;
-	background-color: blue;
-	text-align: center;
-	width: 100%;
-	position: sticky;
-	bottom: 0;
-}
-footer > p {
-	font-size:20px;
+nav {
+    height: 80%;
+    background-color: white;
+    opacity: 0.5;
+    display: block;
+    float: left;
+    width:20%;
 }
 ul {
-	list-style-type: none;
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    margin: 0;
 }
-#upper_ul {
-	background-color: lightblue;
+#mainul {
+    background-color: blue;
+    padding: 0;
 }
-#nest_ul {
-	background-color: blue;
+#nestul {
+    background-color: lightblue;
+}
+#nest_ul>li:hover {
+	background-color:red;
+	opacity: 0.5;
+}
+footer {
+    color: white;
+    background-color: blue;
+    text-align: center;
 }
 a {
-	color: white;
+	display: block;
+    color: white;
 }
-h2 {
-	font-size: 50px;
-	color: lightblue;
+th{
+	height: 50px;
+	background-color: blue;
+}
+table{
+	width: 100%;
+}
+tr{
+	height: 50px;
+	background-color: darkblue;
+}
+tr:nth-child(even){
+	background-color: lightblue;
+}
+.div_form {
+width: 50%;
+ float: left;
+}
+table{
+	clear: both;
 }
