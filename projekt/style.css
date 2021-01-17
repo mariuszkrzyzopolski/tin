@@ -1,0 +1,32 @@
+body {
+    background-image: url("back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    margin: auto;
+}
+main {
+    display: block;
+    height: 80%;
+    overflow-y: scroll;
+    background-color: #3597d2;
+}
+button{
+     display: block;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+#creation{
+    display: none;
+}
+#game{
+    display: none;
+}
+table{
+    border: 1px solid black;
+}

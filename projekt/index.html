@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="zad1.js"></script>
+	  <script src="js.js"></script>
+  </head>
+
+  <body>
+  	<main>
+  		<button type="button" id="create"><h1>Create new character</h1></button>
+  		<div id="creation">
+  			<p id="stats"></p>
+  			<label for="charname">Character Name</label>
+  			<input id="charname" type="text" name="charname" onchange="create_name()">
+  			<input type="button" value="+ max mana" onclick="add('mana')">
+  			<input type="button" value="- max mana" onclick="sub('mana')">
+  			<input type="button" value="+ max life points" onclick="add('health')">
+  			<input type="button" value="- max life points" onclick="sub('health')">
+  			<input type="button" value="+ max damage" onclick="add('attack')">
+  			<input type="button" value="- max damage" onclick="sub('attack')">
+  			<input type="submit" id="char_create" value="create character" onclick="end_creation()">
+  		</div>
+
+  		<div id="game">
+  			P
+  		</div>
+  		<div id="corridors">
+  			<button onclick="game(1)">Enter into the first room</button>
+  		</div>
+  		
+  	</main>
+  </body>
+</html>
