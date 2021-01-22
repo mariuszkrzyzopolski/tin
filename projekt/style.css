@@ -1,5 +1,4 @@
 body {
-    background-image: url("back.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,20 +8,38 @@ body {
     margin: auto;
 }
 main {
+    margin-top: 30px;
     display: block;
     height: 80%;
     overflow-y: scroll;
     background-color: #3597d2;
 }
 button{
-     display: block;
+    display: block;
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
 }
+#create{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 #creation{
+    width: 90%;
+    position: relative;
+    margin: auto;
     display: none;
+}
+#corridors{
+    display: none;
+    clear: both;
+    text-align: center;
+}
+#corridors > div > p{
+    margin: auto;
+    width: 50%;
+    height: 60%;
 }
 #game{
     display: none;
@@ -30,3 +47,28 @@ button{
 table{
     border: 1px solid black;
 }
+.room{
+    float: left;
+    width: 33%;
+}
+#error{
+    background-color: red;
+    color: white;
+}
+#error:hover{
+    color: red;
+    background-color: white;
+}
+input{
+    height: 50px;
+    width: 25%;
+    margin: 10px;
+    float: left;
+}
+label{
+    font-size: 24px;
+    width: 25%;
+    margin: 10px;
+    float: left;
+}
+

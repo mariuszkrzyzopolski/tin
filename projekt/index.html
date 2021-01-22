@@ -3,14 +3,16 @@
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	  <script src="zad1.js"></script>
+	  <script src="jq.js"></script>
 	  <script src="js.js"></script>
   </head>
 
   <body>
   	<main>
   		<button type="button" id="create"><h1>Create new character</h1></button>
+  		<button type="button" id="load"><h1>Load last character</h1></button>
   		<div id="creation">
+  			<p id="error"></p>
   			<p id="stats"></p>
   			<label for="charname">Character Name</label>
   			<input id="charname" type="text" name="charname" onchange="create_name()">
